@@ -26,6 +26,11 @@ export default {
 </script>
 
 <style lang="scss">
+@font-face {
+    font-family: 'Gentona';
+  //  src: ("../assets/Fonts/Gentona ExtraBold(3).otf") format("opentype");
+}
+
 $blue: #003c4d;
 $yellow: #ffce00;
 i {
@@ -59,6 +64,7 @@ i {
       position: absolute;
       margin-left: 66%;
    }
+      font-family: 'Gentona';
  }
  // Banner
 .banner {
