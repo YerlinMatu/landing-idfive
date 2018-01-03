@@ -4,7 +4,7 @@
 <div class="banner">
   <img src="./assets/Images/hero_image.png" alt="hola">
 </div>
-<div class="container one">
+<div class="one">
   <div class="row">
     <!-- firs info -->
     <FirstContent></FirstContent>
