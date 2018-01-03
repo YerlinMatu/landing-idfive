@@ -1,5 +1,5 @@
 <template lang="html">
-  <div class="content3" width="100%">
+  <div class="content" width="100%">
     <h4>Did you know</h4>
     <h5>
       We surveyed over 600 commnunity members to <br>
@@ -17,9 +17,8 @@ export default {
 $blue: #003c4d;
 $yellow: #ffce00;
 
-.content3 {
+.content {
   margin: 0 auto;
-  position: relative;
   margin-top: -10px;
   width: 100%;
   height: auto;
