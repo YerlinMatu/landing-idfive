@@ -10,6 +10,9 @@ Have a Question?</h4>
       </center>
     </small><br>
     <button class="btn btn-yellow">Contact Us</button>
+    <div class="photo">
+      <img src="./assets/Images/have_question.png">
+    </div>
     </div>
   </div>
 </template>
@@ -19,5 +22,13 @@ export default {
 }
 </script>
 
-<style lang="css">
+<style lang="scss">
+.photo {
+ width: 50%;
+ height: auto;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
 </style>
