@@ -28,16 +28,16 @@ export default {
   .resources {
     background-color: #e1e1e1 !important;
     height: 500px;
+    padding: 30px;
     .resources-title {
-    //  position: absolute;
       margin: 0 auto;
       display: block;
       text-align: center;
-  //    margin-top: 40px;
-
     }
 
     .cardX {
+
+      margin-top: 50px;
       background-color: white;
       height: 260px;
       width: 200px;

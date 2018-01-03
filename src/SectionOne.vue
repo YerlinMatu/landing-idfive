@@ -1,7 +1,7 @@
 <template lang="html">
-  <div class="content" width="100%">
-    <h4>Did you know</h4>
+  <div class="content">
     <h5>
+      <h4>Did you know</h4>
       We surveyed over 600 commnunity members to <br>
       prioritize and address health needs.
     </h5>
