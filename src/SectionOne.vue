@@ -1,5 +1,5 @@
 <template lang="html">
-  <div class="content3" width="100%">
+  <div class="content3 container" width="100%">
     <h4>Did you know</h4>
     <h5>
       We surveyed over 600 commnunity members to <br>
@@ -13,10 +13,10 @@
 export default {
 }
 </script>
-
 <style lang="scss">
 $blue: #003c4d;
 $yellow: #ffce00;
+
 .content3 {
   margin: 0 auto;
   position: relative;
@@ -25,9 +25,10 @@ $yellow: #ffce00;
   height: auto;
   padding: 40px;
   display: block;
+  text-align: center;
 //  padding: 0px;
-  h4 { color: $yellow; }
-  h5 { color: white;  text-align: center }
+  h4 { color: $yellow;}
+  h5 { color: white; }
   button {
     margin: 0 auto;
     margin-top: 20px;

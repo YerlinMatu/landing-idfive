@@ -7,51 +7,15 @@
 <div class="container one">
   <div class="row">
     <!-- firs info -->
-    <div class="col s6 first-content">
-      <div class="container">
-      <h4 class="title">
-        Not Hopkins Governement <br>
-        and Community Affairs
-      </h4>
-      <p>
-        Maecenas tempus tellus eget condimentum <br>
-        rihouscus, sem quam semper liber, sit amet
-        adipiscing sem neque sed ipsum.
-      </p>
-        <small>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
-        </small>
-        <small>
-          <ul>
-            <li>Lorem ipsum dolor sit amet</li>
-            <li>Lorem ipsum dolor sit amet</li>
-            <li>Lorem ipsum dolor sit amet</li>
-          </ul>
-          <button class="btn btn-yellow">Read Our Mission Statement</button>
-        </small>
-        </div>
-    </div>
+    <FirstContent></FirstContent>
     <!-- Second info -->
-    <div class="col s6 second-content">
-      <div class="container">
-      <h4 class="center-align">
-        Have a Question?
-      </h4>
-      <small>
-        <center>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
-        </center>
-      </small><br>
-      <button class="btn btn-yellow">Contact Us</button>
-      </div>
-    </div>
+    <SecondContent></SecondContent>
   </div>
+
   </div>
-<!--  <img src="./assets/Images/have_question.png" class="photo1"> -->
   <SectionOne></SectionOne>
-</div>
+  <Resources></Resources>
+<!--  <img src="./assets/Images/have_question.png" class="photo1"> -->
 </div>
 </template>
 
@@ -141,6 +105,7 @@ i {
     button {
       margin-top: 20px;
       display: block;
+
     }
     ul { margin-top: 20px;  }
     li { margin-bottom: 10px; }
@@ -173,6 +138,5 @@ i {
     margin-left: -10px;
   }
 }
-
 
 </style>
