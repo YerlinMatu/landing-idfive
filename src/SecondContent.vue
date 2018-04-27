@@ -2,7 +2,8 @@
   <div class="col s6 second-content">
     <div class="container">
     <h4 class="center-align">
-Have a Question?</h4>
+      Have a Question?
+    </h4>
     <small>
       <center>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
